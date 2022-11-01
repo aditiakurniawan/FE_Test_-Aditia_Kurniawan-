@@ -12,6 +12,8 @@ body{
     background: url(/asset/images/BG\ Page\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 .background2{
     width: 100%;
@@ -19,17 +21,20 @@ body{
     background: url(/asset/images/BG\ Page\ 2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
+  
 }
 .title{
     width: 90%;
-    top: 8%;
+    top: 9%;
     color: #55604F;
     position: absolute;
     font-weight: bold !important;
 }
 .photo{
-  margin-top: 32%;
-  height: 330px !important;
+  margin-top: 33%;
+  height: 350px !important;
   object-fit: cover;
   transition: transform 2s;
 }
@@ -38,7 +43,7 @@ body{
   }
 
 .flower1{
-    bottom: 39%;
+    bottom: 29%;
     margin-left: 62%;
     margin-bottom: 60%;
     position: absolute;
@@ -87,9 +92,26 @@ body{
     to { opacity: 1; }
   }
 
+  .flower3a{
+    bottom: 80%;
+    right: 39%;
+    /* margin-right: 86%; */
+    position: absolute;
+    width: 88%;
+    animation-name: flower3a;
+    animation-duration: 8s;
+    animation-delay: 1.5s; 
+    animation-fill-mode: backwards; 
+    
+}
+@keyframes flower3a {
+    from { opacity: 0.1;}
+    to { opacity: 1; }
+  }
+
 
 .flower4{
-    top: 100%;
+    bottom: 0;
     right: -6%;
     margin-top: 165%;
     position: absolute;
@@ -208,12 +230,11 @@ body{
     from { top: 200px; opacity: 0}
     to { top:10px }
   }
-.page2{
+.text{
     padding: 42% 15% 0%15%;
+   
 }
-.page2:hover{
-    color: #869580;
-}
+
 .title2{
     color: #bc9644;
     font-size: 15pt;
