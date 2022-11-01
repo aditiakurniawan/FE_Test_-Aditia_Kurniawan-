@@ -1,0 +1,254 @@
+body{
+    margin: 0%;
+    /* width: 300px;
+    height: 100%; */
+    /* overflow: hidden; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.background1{
+    width: 100%;
+    height: 100vh;
+    background: url(/asset/images/BG\ Page\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2{
+    width: 100%;
+    height: 100vh;
+    background: url(/asset/images/BG\ Page\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+    width: 90%;
+    top: 8%;
+    color: #55604F;
+    position: absolute;
+    font-weight: bold !important;
+}
+.photo{
+  margin-top: 32%;
+  height: 330px !important;
+  object-fit: cover;
+  transition: transform 2s;
+}
+.photo:hover {
+    transform: rotateY(180deg);
+  }
+
+.flower1{
+    bottom: 39%;
+    margin-left: 62%;
+    margin-bottom: 60%;
+    position: absolute;
+    width: 60%;
+    animation-name: flower1;
+  animation-duration: 4s;  
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+@keyframes flower1 {
+    from { opacity: 0.1;transform: rotate(-20deg)}
+    to { opacity: 1;ransform: rotate(0deg)  }
+  }
+
+.flower2{
+    top: 66%;
+    margin-left: 76%;
+    position: absolute;
+    width: 60%;
+    transform: rotate(-20deg);
+    animation-name: flower2;
+    animation-duration: 4s;
+    animation-delay: 1.5s; 
+    animation-fill-mode: backwards; 
+}
+
+@keyframes flower2 {
+    from { opacity: 0.1; transform: rotate(40deg)}
+    to { opacity: 1; transform: rotate(-20deg) }
+  }
+
+.flower3{
+    top: 88%;
+    right: 39%;
+    /* margin-right: 86%; */
+    position: absolute;
+    width: 88%;
+    animation-name: flower3;
+    animation-duration: 8s;
+    animation-delay: 1.5s; 
+    animation-fill-mode: backwards; 
+    
+}
+@keyframes flower3 {
+    from { opacity: 0.1;}
+    to { opacity: 1; }
+  }
+
+
+.flower4{
+    top: 100%;
+    right: -6%;
+    margin-top: 165%;
+    position: absolute;
+    object-fit: cover;
+    /* height: 70px; */
+    width: 115%;
+    animation-name: flower3;
+    animation-duration: 15s;
+    animation-delay: 1.5s; 
+    animation-fill-mode: backwards; 
+}
+@keyframes flower3 {
+    from { opacity: 0.1;}
+    to { opacity: 1; }
+  }
+
+.leaf2a{
+    top: 57%;
+    margin-left: 10%;
+    margin-bottom: 60%;
+    position: absolute;
+    width: 14%;
+    animation-name: leaf2a;
+  animation-duration: 5s;  
+  animation-delay: 10ms;
+  /* animation-iteration-count: infinite; */
+  /* transition: transform 2s; */
+}
+@keyframes leaf2a {
+    from { transform: rotate(0deg)}
+    to { transform: rotate(180deg) }
+  }
+
+.leaf1a{
+    top: 64%;
+    margin-left: 77%;
+    margin-bottom: 60%;
+    position: absolute;
+    width: 14%;
+    animation-name: leaf1a;
+    animation-duration: 4s;  
+    animation-delay: 10ms;
+  /* animation-iteration-count: infinite; */
+}
+@keyframes leaf1a {
+    from { transform: rotate(0deg)}
+    to { transform: rotate(180deg) }
+  }
+
+.leaf1b{
+    top: 92%;
+    margin-left: 25%;
+    margin-top: 82%;
+    position: absolute;
+    width: 12%;
+    animation-name: leaf1b;
+    animation-duration: 7s;  
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+@keyframes leaf1b {
+    from { transform: rotate(0deg)}
+    to { transform: rotate(180deg) }
+  }
+.leaf2b{
+    top: 108%;
+    /* margin-right: 0%; */
+    margin-top: 92%;
+    left: 30px;
+    position: absolute;
+    width: 12%;
+    animation-name: leaf2b;
+    animation-duration: 7s;  
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+@keyframes leaf2b {
+    from { transform: rotate(0deg)}
+    to { transform: rotate(180deg) }
+  }
+.nama{
+    color: #55604F;
+    font-size: 3.8em;
+    animation-name: nama;
+    animation-duration: 4s;  
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+@keyframes nama {
+    from { top: 200px; opacity: 0}
+    to { top:10px }
+  }
+
+.tanggal{
+    color: #55604F;
+    border: 2px solid #D89E30 !important;
+    font-weight: bold;
+    animation-name: tanggal;
+    animation-duration: 4s;  
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+@keyframes tanggal {
+    from { top: 200px; opacity: 0}
+    to { top:10px }
+  }
+.mohon{
+    color: #55604F;
+    font-size: 12px;
+    animation-name: mohon;
+    animation-duration: 4s;  
+    animation-delay: 2.8s;
+    animation-fill-mode: backwards;
+}
+@keyframes mohon {
+    from { top: 200px; opacity: 0}
+    to { top:10px }
+  }
+.page2{
+    padding: 42% 15% 0%15%;
+}
+.page2:hover{
+    color: #869580;
+}
+.title2{
+    color: #bc9644;
+    font-size: 15pt;
+    font-weight: bolder;
+    animation-name: title2;
+    animation-duration: 8s;  
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+@keyframes title2 {
+    from { right: 200px; opacity: 0}
+    to { right:10px }
+  }
+.text1{
+    color: #869580;
+    font-size: 8pt;
+    animation-name: title2;
+    animation-duration: 8s;  
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+}
+.text2{
+    color: #869580;
+    font-size: 9pt;
+}
+.namacalon{
+    color: #869580;
+    font-size: 3.8em;
+    font-weight: lighter;
+}
+.namacalon1{
+    color: #869580;
+    font-size: 3.3em;
+    font-weight: lighter;
+}
+.ortu{
+    margin-top: -5%;
+}
